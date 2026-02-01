@@ -205,21 +205,31 @@ td {
     box-shadow: 0 4px 15px rgba(67, 97, 238, 0.4);
     transition: 0.3s;
 }
-.uucms-link {
-    display: inline-block;
-    color: #4361ee;
-    text-decoration: none;
-    font-weight: bold;
-    border: 1.5px solid #4361ee;
-    padding: 10px 20px;
-    border-radius: 8px;
-    transition: all 0.3s ease;
+.extra-info-blended {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed #e5e7eb; /* Table matte link naduve ondu sanna line */
+    text-align: left; /* Ellavu left inda shuruvaagutte */
 }
 
-.uucms-link:hover {
-    background-color: #4361ee;
-    color: white;
-    box-shadow: 0 4px 10px rgba(67, 97, 238, 0.2);
+.extra-info-blended p {
+    font-size: 0.9rem;
+    padding-left:34px;
+    color: #6b7280;
+    margin-bottom: 8ppx;
+}
+
+.extra-info-blended a {
+    margin-left:34px;
+    color: #f50a0af3;
+    text-decoration: none;
+    border-bottom: 2px solid #4361ee;
+    padding-bottom: 2px;
+}
+
+
+.card-footer {
+    margin-top: 20px;
 }
 
 .btn-primary:hover {
@@ -227,3 +237,4 @@ td {
     box-shadow: 0 6px 20px rgba(67, 97, 238, 0.5);
 
 }
+
