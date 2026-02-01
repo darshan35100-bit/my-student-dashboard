@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Portal | Modern Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>College Dashboard</h2>
+        <ul>
+            <li><a href="#" class="active"><span>🏠</span> Home</a></li>
+            <li><a href="#"><span>📚</span> Courses</a></li>
+            <li><a href="#"><span>📝</span> Exams</a></li>
+            <li><a href="#"><span>⚙️</span> Settings</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <h1>Student Profile Details</h1>
+            <div class="user-info">
+                <img src="DP.png" class="profile-img-header" alt="Student Profile">
+                <div class="user-text">
+                    <span class="welcome-msg">Welcome back,</span>
+                    <span class="user-name">Darshan K M</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="card">
+                <h3><span>👤</span> Personal Information</h3>
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <input type="text" value="Darshan K M" readonly>
+                </div>
+                <div class="input-group">
+                    <label>Enrollment ID</label>
+                    <span class="badge">U06GG0000000001</span>
+                </div>
+                <div class="input-group">
+                    <label>Gender</label>
+                    <div class="radio-group">
+                        <input type="radio" name="gen" id="m" checked> <label for="m">Male</label>
+                        <input type="radio" name="gen" id="f"> <label for="f">Female</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3><span>📑</span> Course Preferences</h3>
+                <div class="input-group">
+                    <label>Major Department</label>
+                    <select>
+                        <option>Computer Science</option>
+                        <option>Information Science</option>
+                        <option>Electronics</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Interests</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" checked> Web Design</label>
+                        <label><input type="checkbox"> AI / ML</label>
+                        <label><input type="checkbox"> Cybersecurity</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card table-card">
+            <h3><span>📊</span> Current Semester Grades</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject Code</th>
+                        <th>Subject Name</th>
+                        <th>Status</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS10000001</td>
+                        <td>Python Programming</td>
+                        <td><span class="status-pass">Passed</span></td>
+                        <td><strong>O</strong></td>
+                    </tr>
+                    <tr>
+                        <td>CS10000002</td>
+                        <td>Javascript Frameworks</td>
+                        <td><span class="status-pass">Passed</span></td>
+                        <td><strong>O</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn-primary">Download Report</button>
+        </div>
+    </div>
+
+</body>
+</html>
